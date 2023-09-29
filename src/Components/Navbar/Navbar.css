@@ -32,6 +32,18 @@
     list-style-type: none;
     margin: 60px;
     cursor: pointer;
+    padding: 0.2rem 0.3rem;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-items ul li:hover {
+    border-bottom: 2px solid #677D2E;
+    transition: 0.5s ease-in-out;
+    scale: 1.05;
+}
+
+.nav-items ul li:active {
+    border-bottom: 2px solid #677D2E;
 }
 
 .contact {
@@ -41,9 +53,17 @@
 
 .button {
     border: 1px solid #677D2E;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 2.2rem;
     width: 6.5rem;
+}
+
+.button:hover {
+    background-color: #677D2E;
+    color: black;
+    border-color: black;
+    transition: 0.5s ease-in-out;
 }

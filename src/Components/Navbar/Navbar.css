@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 
 .navbar {
     font-family: 'PT Sans', sans-serif;
@@ -12,11 +12,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .logo {
     margin-left: 4%;
     height: 80%;
+    overflow: hidden;
 }
 
 

@@ -1,5 +1,9 @@
 .home {
     background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 85vh;
     width: 100vw;
+    color: #667D2E;
+    text-align: center;
 }

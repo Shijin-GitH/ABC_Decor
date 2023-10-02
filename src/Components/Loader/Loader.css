@@ -5,7 +5,7 @@ body {
 #ring-container {
     width: 100vw;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     background: #677D2E;
@@ -16,7 +16,7 @@ body {
 }
 
 #ring {
-    position: relative;
+    position: fixed;
     width: 150px;
     height: 150px;
     background: #677D2E;

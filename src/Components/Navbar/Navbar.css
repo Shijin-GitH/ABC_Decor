@@ -45,7 +45,7 @@
 
 .nav-items ul li:hover {
     border-bottom: 2px solid #677D2E;
-    transition: 0.5s ease-in-out;
+    transition: 0.4s ease-in-out;
     scale: 1.05;
 }
 
@@ -68,5 +68,12 @@
     width: 6.5rem;
     border-radius: 10px;
     font-weight: 700;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    border: 0.5px solid #fff;
 }
 

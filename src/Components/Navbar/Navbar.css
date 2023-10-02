@@ -70,3 +70,10 @@
     font-weight: 700;
 }
 
+.button:hover {
+    background-color: transparent;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    border: 0.5px solid #fff;
+}
+

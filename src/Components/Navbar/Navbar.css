@@ -68,12 +68,13 @@
     width: 6.5rem;
     border-radius: 10px;
     font-weight: 700;
+    border: 1px solid transparent;
 }
 
 .button:hover {
     background-color: transparent;
     color: #fff;
     transition: 0.3s ease-in-out;
-    border: 0.5px solid #fff;
+    border: 1px solid #fff;
 }
 

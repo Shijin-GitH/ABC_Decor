@@ -6,7 +6,7 @@ function Navbar() {
     <div className='navbar'>
       <div className="container">
         <div className="logo">
-            <img src="src\assets\logo.webp" id='logo'/>
+            <img src="src\assets\logo.png" id='logo'/>
         </div>
         <div className="nav-items">
             <ul>
@@ -14,10 +14,11 @@ function Navbar() {
                 <li>ABOUT</li>
                 <li>SERVICES</li>
                 <li>TESTIMONIALS</li>
+                <li>CONTACT</li>
             </ul>
         </div>
-        <div className="contact">
-            <div className="button">CONTACT</div>
+        <div className="enquire">
+            <div className="button">ENQUIRE</div>
         </div>
       </div>
     </div>

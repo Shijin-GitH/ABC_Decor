@@ -23,3 +23,9 @@
     font-weight: lighter;
     font-family: 'Italiana', serif;
 }
+
+@media (max-width: 450px) {
+    .home {
+        background-image: url(../../../public/assets/Home-BG-mob.png);
+    }
+}

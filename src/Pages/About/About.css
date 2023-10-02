@@ -1,0 +1,40 @@
+.About_Us{
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.About_Us_container{
+    width:60%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    padding:4vw;
+    border-radius: 10px;
+    background-color: brown;
+
+
+}
+.aboutus_image{
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+.aboutus_content{
+    display:flex;
+    width: 50%;
+    flex-direction: column;
+    padding:3%;
+}
+.aboutus_heading{
+    font-size: 100px;
+    color: white;
+
+}
+.mimick{
+    width:100vw;
+    height: 100vh;
+    background-color: black;
+}

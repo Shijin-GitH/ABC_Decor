@@ -16,7 +16,21 @@ function App() {
     setTimeout(() => setLoading(false), 4000)
   }, [])
 
+  useEffect(()=>{
+    var allElements = document.querySelectorAll('*')
+
+// Loop through each element and set styles
+    for (var i = 0; i < allElements.length; i++) {
+    // Set the desired styles using the style property
+    allElements[i].style.overflowY= loader? 'hidden':'scroll'
+    allElements[i].scrollTop= loader? 0:''
+    }
+    
+   
+  },[loader]);
+
   return (
+    
     <div className='App'>
       {loader && <Loader />}
       <div className="header"><Navbar /></div>

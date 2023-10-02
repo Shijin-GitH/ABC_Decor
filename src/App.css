@@ -11,7 +11,8 @@
 .main-body{
     height: fit-content;
     width: 100%;
-   user-select: none;
-   overflow-y: hidden;
-   overflow-x: hidden;
+    user-select: none;
+    overflow-x: hidden;
+    background-color: #677D2E;
+    background-image: url(../src/assets/123\ horizontal\ 1.svg);
 }

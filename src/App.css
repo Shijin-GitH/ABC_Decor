@@ -21,5 +21,6 @@
     user-select: none;
     overflow-x: hidden;
     background-color: #677D2E;
-    background-image: url(../src/assets/BG_Des.svg);
+    background-image: url(../public/assets/BG_Des.svg);
+    background-size: fill;
 }
